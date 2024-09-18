@@ -491,6 +491,272 @@ const pokedex = async (options) => {
         // Render card
         let charadexItem = new List("charadex-gallery", itemOptions, singleCard);
 
+        function Poison(word) {
+            //find all html elements on the page inside the body tag
+            let elems = document.querySelector("type");
+            // get our replacement ready
+            let span = "<span class='type-icon type-poison'>" + word + "</span>";
+            //loop through all the elements
+            for (let x = 0; x < elems.length; x++) {
+                // for each element, 'split' by the word we're looking for, then 'join' it back with the replacement
+                elems[x].innerHTML = elems[x].innerHTML.split(word).join(span);
+            }
+        }
+    
+        Poison('Poison');
+    
+        function Dragon(word) {
+            //find all html elements on the page inside the body tag
+            let elems = document.querySelector("type");
+            // get our replacement ready
+            let span = "<span class='type-icon type-dragon'>" + word + "</span>";
+            //loop through all the elements
+            for (let x = 0; x < elems.length; x++) {
+                // for each element, 'split' by the word we're looking for, then 'join' it back with the replacement
+                elems[x].innerHTML = elems[x].innerHTML.split(word).join(span);
+            }
+        }
+    
+        Dragon('Dragon');
+    
+        function Fire(word) {
+            //find all html elements on the page inside the body tag
+            let elems = document.querySelector("type");
+            // get our replacement ready
+            let span = "<span class='type-icon type-fire'>" + word + "</span>";
+            //loop through all the elements
+            for (let x = 0; x < elems.length; x++) {
+                // for each element, 'split' by the word we're looking for, then 'join' it back with the replacement
+                elems[x].innerHTML = elems[x].innerHTML.split(word).join(span);
+            }
+        }
+    
+        Fire('Fire');
+
+        function Water(word) {
+            //find all html elements on the page inside the body tag
+            let elems = document.querySelector("type");
+            // get our replacement ready
+            let span = "<span class='type-icon type-water'>" + word + "</span>";
+            //loop through all the elements
+            for (let x = 0; x < elems.length; x++) {
+                // for each element, 'split' by the word we're looking for, then 'join' it back with the replacement
+                elems[x].innerHTML = elems[x].innerHTML.split(word).join(span);
+            }
+        }
+    
+        Water('Water');
+
+        function Grass(word) {
+            //find all html elements on the page inside the body tag
+            let elems = document.querySelector("type");
+            // get our replacement ready
+            let span = "<span class='type-icon type-grass'>" + word + "</span>";
+            //loop through all the elements
+            for (let x = 0; x < elems.length; x++) {
+                // for each element, 'split' by the word we're looking for, then 'join' it back with the replacement
+                elems[x].innerHTML = elems[x].innerHTML.split(word).join(span);
+            }
+        }
+    
+        Grass('Grass');
+
+        function Ice(word) {
+            //find all html elements on the page inside the body tag
+            let elems = document.querySelector("type");
+            // get our replacement ready
+            let span = "<span class='type-icon type-ice'>" + word + "</span>";
+            //loop through all the elements
+            for (let x = 0; x < elems.length; x++) {
+                // for each element, 'split' by the word we're looking for, then 'join' it back with the replacement
+                elems[x].innerHTML = elems[x].innerHTML.split(word).join(span);
+            }
+        }
+    
+        Ice('Ice');
+
+        function Electric(word) {
+            //find all html elements on the page inside the body tag
+            let elems = document.querySelector("type");
+            // get our replacement ready
+            let span = "<span class='type-icon type-electric'>" + word + "</span>";
+            //loop through all the elements
+            for (let x = 0; x < elems.length; x++) {
+                // for each element, 'split' by the word we're looking for, then 'join' it back with the replacement
+                elems[x].innerHTML = elems[x].innerHTML.split(word).join(span);
+            }
+        }
+    
+        Electric('Electric');
+
+        function Psychic(word) {
+            //find all html elements on the page inside the body tag
+            let elems = document.querySelector("type");
+            // get our replacement ready
+            let span = "<span class='type-icon type-psychic'>" + word + "</span>";
+            //loop through all the elements
+            for (let x = 0; x < elems.length; x++) {
+                // for each element, 'split' by the word we're looking for, then 'join' it back with the replacement
+                elems[x].innerHTML = elems[x].innerHTML.split(word).join(span);
+            }
+        }
+    
+        Psychic('Psychic');
+
+        function Dark(word) {
+            //find all html elements on the page inside the body tag
+            let elems = document.querySelector("type");
+            // get our replacement ready
+            let span = "<span class='type-icon type-dark'>" + word + "</span>";
+            //loop through all the elements
+            for (let x = 0; x < elems.length; x++) {
+                // for each element, 'split' by the word we're looking for, then 'join' it back with the replacement
+                elems[x].innerHTML = elems[x].innerHTML.split(word).join(span);
+            }
+        }
+    
+        Dark('Dark');
+
+        function Fairy(word) {
+            //find all html elements on the page inside the body tag
+            let elems = document.querySelector("type");
+            // get our replacement ready
+            let span = "<span class='type-icon type-fairy'>" + word + "</span>";
+            //loop through all the elements
+            for (let x = 0; x < elems.length; x++) {
+                // for each element, 'split' by the word we're looking for, then 'join' it back with the replacement
+                elems[x].innerHTML = elems[x].innerHTML.split(word).join(span);
+            }
+        }
+    
+        Fairy('Fairy');
+
+        function Normal(word) {
+            //find all html elements on the page inside the body tag
+            let elems = document.querySelector("type");
+            // get our replacement ready
+            let span = "<span class='type-icon type-normal'>" + word + "</span>";
+            //loop through all the elements
+            for (let x = 0; x < elems.length; x++) {
+                // for each element, 'split' by the word we're looking for, then 'join' it back with the replacement
+                elems[x].innerHTML = elems[x].innerHTML.split(word).join(span);
+            }
+        }
+    
+        Normal('Normal');
+
+        function Fighting(word) {
+            //find all html elements on the page inside the body tag
+            let elems = document.querySelector("type");
+            // get our replacement ready
+            let span = "<span class='type-icon type-fighting'>" + word + "</span>";
+            //loop through all the elements
+            for (let x = 0; x < elems.length; x++) {
+                // for each element, 'split' by the word we're looking for, then 'join' it back with the replacement
+                elems[x].innerHTML = elems[x].innerHTML.split(word).join(span);
+            }
+        }
+    
+        Fighting('Fighting');
+
+        function Flying(word) {
+            //find all html elements on the page inside the body tag
+            let elems = document.querySelector("type");
+            // get our replacement ready
+            let span = "<span class='type-icon type-flying'>" + word + "</span>";
+            //loop through all the elements
+            for (let x = 0; x < elems.length; x++) {
+                // for each element, 'split' by the word we're looking for, then 'join' it back with the replacement
+                elems[x].innerHTML = elems[x].innerHTML.split(word).join(span);
+            }
+        }
+    
+        Flying('Flying');
+
+        function Ground(word) {
+            //find all html elements on the page inside the body tag
+            let elems = document.querySelector("type");
+            // get our replacement ready
+            let span = "<span class='type-icon type-ground'>" + word + "</span>";
+            //loop through all the elements
+            for (let x = 0; x < elems.length; x++) {
+                // for each element, 'split' by the word we're looking for, then 'join' it back with the replacement
+                elems[x].innerHTML = elems[x].innerHTML.split(word).join(span);
+            }
+        }
+    
+        Ground('Ground');
+
+        function Rock(word) {
+            //find all html elements on the page inside the body tag
+            let elems = document.querySelector("type");
+            // get our replacement ready
+            let span = "<span class='type-icon type-rock'>" + word + "</span>";
+            //loop through all the elements
+            for (let x = 0; x < elems.length; x++) {
+                // for each element, 'split' by the word we're looking for, then 'join' it back with the replacement
+                elems[x].innerHTML = elems[x].innerHTML.split(word).join(span);
+            }
+        }
+    
+        Rock('Rock');
+
+        function Bug(word) {
+            //find all html elements on the page inside the body tag
+            let elems = document.querySelector("type");
+            // get our replacement ready
+            let span = "<span class='type-icon type-bug'>" + word + "</span>";
+            //loop through all the elements
+            for (let x = 0; x < elems.length; x++) {
+                // for each element, 'split' by the word we're looking for, then 'join' it back with the replacement
+                elems[x].innerHTML = elems[x].innerHTML.split(word).join(span);
+            }
+        }
+    
+        Bug('Bug');
+
+        function Ghost(word) {
+            //find all html elements on the page inside the body tag
+            let elems = document.querySelector("type");
+            // get our replacement ready
+            let span = "<span class='type-icon type-ghost'>" + word + "</span>";
+            //loop through all the elements
+            for (let x = 0; x < elems.length; x++) {
+                // for each element, 'split' by the word we're looking for, then 'join' it back with the replacement
+                elems[x].innerHTML = elems[x].innerHTML.split(word).join(span);
+            }
+        }
+    
+        Ghost('Ghost');
+
+        function Steel(word) {
+            //find all html elements on the page inside the body tag
+            let elems = document.querySelector("type");
+            // get our replacement ready
+            let span = "<span class='type-icon type-steel'>" + word + "</span>";
+            //loop through all the elements
+            for (let x = 0; x < elems.length; x++) {
+                // for each element, 'split' by the word we're looking for, then 'join' it back with the replacement
+                elems[x].innerHTML = elems[x].innerHTML.split(word).join(span);
+            }
+        }
+    
+        Steel('Steel');
+
+        function Stellar(word) {
+            //find all html elements on the page inside the body tag
+            let elems = document.querySelector("type");
+            // get our replacement ready
+            let span = "<span class='type-icon type-stellar'>" + word + "</span>";
+            //loop through all the elements
+            for (let x = 0; x < elems.length; x++) {
+                // for each element, 'split' by the word we're looking for, then 'join' it back with the replacement
+                elems[x].innerHTML = elems[x].innerHTML.split(word).join(span);
+            }
+        }
+    
+        Stellar('Stellar');
+
 
     } else {
 
